@@ -1,0 +1,45 @@
+.containerColumn {
+  display: flex;
+  flex-direction: column; /* Arrange items in a column */
+  align-items: center; /* Center items horizontally */
+}
+body {
+  margin: 0;
+  background-color: aliceblue;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  margin: 20px;
+  padding: 30px 30px;
+  background-color: burlywood;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  position: relative; /* to make the children have the boundary of the parent i.e relative to the parent*/
+}
+.containerRow {
+  display: flex;
+  flex-direction: row; /* Arrange items in a column */
+}
+
+.inputText {
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 5px;
+}
+.containerRow .icon {
+  position: absolute;
+  left: 45px; /* Adjust as needed */
+  top: 35%;
+
+  transform: translateY(-50%);
+}
+.containerRow .icons {
+  position: absolute;
+  left: 45px; /* Adjust as needed */
+  top: 65%;
+  transform: translateY(-50%);
+}
